@@ -25930,7 +25930,7 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { key: Math.random().toString(36), className: 'recipient' },
-	        _react2.default.createElement('img', { src: '../assets/me.jpg' }),
+	        _react2.default.createElement('img', { src: 'https://pbs.twimg.com/profile_images/720438386188681217/W3f_2f8W_400x400.jpg' }),
 	        message_nodes
 	      );
 	    }
@@ -25946,7 +25946,7 @@
 	          return _react2.default.createElement(
 	            'div',
 	            { key: Math.random().toString(36), className: 'recipient' },
-	            _react2.default.createElement('img', { src: '../assets/me.jpg' }),
+	            _react2.default.createElement('img', { src: 'https://pbs.twimg.com/profile_images/720438386188681217/W3f_2f8W_400x400.jpg' }),
 	            _react2.default.createElement(
 	              _ChatBubble2.default,
 	              null,
@@ -26201,7 +26201,7 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'header-section' },
-	            _react2.default.createElement('img', { src: '../../assets/me.jpg' })
+	            _react2.default.createElement('img', { src: 'https://pbs.twimg.com/profile_images/720438386188681217/W3f_2f8W_400x400.jpg' })
 	          ),
 	          _react2.default.createElement(
 	            'div',

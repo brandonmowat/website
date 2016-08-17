@@ -115,7 +115,7 @@ export default class Chat extends Component {
     })
     return (
       <div key={Math.random().toString(36)} className="recipient">
-        <img src="../assets/me.jpg"/>
+        <img src="https://pbs.twimg.com/profile_images/720438386188681217/W3f_2f8W_400x400.jpg"/>
         {message_nodes}
       </div>
     )
@@ -128,7 +128,7 @@ export default class Chat extends Component {
         console.log("Single message");
         return (
           <div key={Math.random().toString(36)} className="recipient">
-            <img src="../assets/me.jpg"/>
+            <img src="https://pbs.twimg.com/profile_images/720438386188681217/W3f_2f8W_400x400.jpg"/>
             <ChatBubble>{curr.message}</ChatBubble>
           </div>
         )
@@ -326,7 +326,7 @@ export default class Chat extends Component {
       <div>
         <header>
           <div className="header-section">
-            <img src="../../assets/me.jpg"/>
+            <img src="https://pbs.twimg.com/profile_images/720438386188681217/W3f_2f8W_400x400.jpg"/>
           </div>
           <div className="header-section">
             <h1>Brandon Mowat</h1>
