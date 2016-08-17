@@ -11,7 +11,7 @@ import Chat from './src/views/Chat'
 render(
   (
     <Router history={browserHistory}>
-      <Route path="/website" component={App}>
+      <Route path="/website/" component={App}>
         <IndexRoute component={Chat}/>
       </Route>
     </Router>
