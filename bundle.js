@@ -71,7 +71,7 @@
 	  { history: _reactRouter.browserHistory },
 	  _react2.default.createElement(
 	    _reactRouter.Route,
-	    { path: '/website', component: _App2.default },
+	    { path: '/website/', component: _App2.default },
 	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _Chat2.default })
 	  )
 	), document.getElementById('app'));
